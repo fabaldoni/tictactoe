@@ -631,9 +631,9 @@ function closeModal(id) {
 }
 
 function endGame(who) {
-  if (who = player) {
+  if (who == player) {
     announceWinner("Congratulations, you won!");
-  } else if (who = computer) {
+  } else if (who == computer) {
     announceWinner("Computer wins!");
   } else {
     announceWinner("It's a tie!");
