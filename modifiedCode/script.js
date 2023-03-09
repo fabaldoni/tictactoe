@@ -623,7 +623,7 @@ function getOptions() {
     computerText = xText;
     setTimeout(makeComputerMove, 400);
   }
-  document.getElementById("optionsDlg").style.display = "none";
+  document.getElementById("optionsDl").style.display = "none";
 }
 
 function closeModal(id) {
