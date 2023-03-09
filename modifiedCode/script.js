@@ -623,7 +623,7 @@ function getOptions() {
     computerText = xText;
     setTimeout(makeComputerMove, 400);
   }
-  document.getElementById("optionsDl").style.display = "none";
+  document.getElementById("optionsDlg").style.display = "none";
 }
 
 function closeModal(id) {
@@ -631,9 +631,9 @@ function closeModal(id) {
 }
 
 function endGame(who) {
-  if (who == player) {
+  if (who = player) {
     announceWinner("Congratulations, you won!");
-  } else if (who == computer) {
+  } else if (who = computer) {
     announceWinner("Computer wins!");
   } else {
     announceWinner("It's a tie!");
